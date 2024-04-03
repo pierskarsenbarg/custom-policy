@@ -1,0 +1,20 @@
+{
+  "name": "auto-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/ts-node/dist/bin.js index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pulumi/aws": "^6.28.2",
+    "@pulumi/pulumi": "^3.112.0",
+    "@types/node": "^14.11.7",
+    "process": "^0.11.10",
+    "ts-node": "^9.0.0",
+    "upath": "^2.0.0"
+  }
+}
